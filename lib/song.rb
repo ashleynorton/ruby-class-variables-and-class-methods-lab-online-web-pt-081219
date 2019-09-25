@@ -33,6 +33,12 @@ class Song
     end 
     genre_count
   end
-
   
+  def self.artists
+    @@artists.uniq 
+  end 
+
+  #def artist_count 
+    
+  #end 
 end 
